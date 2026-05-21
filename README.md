@@ -461,16 +461,6 @@ The two scripts form a complete sim-to-sim evaluation pipeline:
 2. **Train a policy**: Use LeRobot's training tools (`lerobot train`) to train an ACT, Diffusion, or SmolVLA policy on the collected dataset.
 3. **Evaluate in simulation**: Run the inference script to load the trained policy and measure its success rate in simulation.
 
-## Related Scripts
-
-| Script | Environment | Purpose |
-|--------|-------------|---------|
-| `pick_place_sm.py` | `Isaac-PickPlace-Cube-SO101-IK-v0` | Original SM — infinite loop, no recording |
-| `pick_place_codex.py` | `Isaac-PickPlace-Cube-SO101-IK-v0` | LeRobot recording (Parquet + MP4), episode limit, cleanup |
-| `pick_place_so101_lerobot_bin_fix.py` | `Isaac-PickPlace-Cube-SO101-Bin-IK-v0` | Work-in-progress Bin variant |
-| `pick_and_place_so101_lerobot_bin_ik_action_pair_grid_multi.py` | `SO101BinPickPlacePairGridDatagenEnvCfg` | **Data collection** — Pair grid, joint-space actions, dual camera |
-| `pick_and_place_so101_lerobot_bin_act_infer.py` | `SO101BinPickPlaceJointDatagenEnvCfg` | **Policy inference** — Load trained VLA policy, evaluate in sim |
-
 ---
 
 ## References
