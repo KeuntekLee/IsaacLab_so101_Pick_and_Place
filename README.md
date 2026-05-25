@@ -2,11 +2,11 @@
 
 End-to-end data collection and VLA policy inference for the **SO101** robot using Isaac Lab and LeRobot.
 
-| Script | Purpose |
-|--------|---------|
-| [`pick_and_place_so101_lerobot_bin_ik_action.py`](#vla-policy-inference) | Automated state-machine data collection producing LeRobot v3.0 datasets (simpler settings) |
-| [`pick_and_place_so101_lerobot_bin_ik_action_pair_grid_multi.py`](#data-collection) | Automated state-machine data collection producing LeRobot v3.0 datasets (diverse settings) |
-| [`pick_and_place_so101_lerobot_bin_act_infer.py`](#vla-policy-inference) | Load a trained VLA policy (e.g., ACT) and evaluate it in simulation |
+| Script | Purpose | Dataset|
+|--------|---------|---------|
+| [`pick_and_place_so101_lerobot_bin_ik_action.py`](#vla-policy-inference) | Automated state-machine data collection producing LeRobot v3.0 datasets (simpler settings) | [HAEILx/Isaac_so101_simple](https://huggingface.co/datasets/HAEILx/Isaac_so101_simple) |
+| [`pick_and_place_so101_lerobot_bin_ik_action_pair_grid_multi.py`](#data-collection) | Automated state-machine data collection producing LeRobot v3.0 datasets (diverse settings) | [HAEILx/Isaac_so101_grid] (https://huggingface.co/datasets/HAEILx/Isaac_so101_grid) |
+| [`pick_and_place_so101_lerobot_bin_act_infer.py`](#vla-policy-inference) | Load a trained VLA policy (e.g., ACT) and evaluate it in simulation | - |
 
 
 ---
